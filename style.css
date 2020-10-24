@@ -1,0 +1,243 @@
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+p{
+    font-family: "NoirStd-Regular";
+}
+.firstpage{
+    background-image: url("landing-page.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-color: white;
+    height: 100%;
+}
+.location{
+    background-image:url(cloud.png), url("new-york-page.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    
+}
+.contact{
+    background-image: url("contact-mountain.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+li, a{
+    font-weight: 500;
+    font-size:  20px;
+    color: white;
+    text-decoration: none;
+    font-family: "NoirStd-Regular";
+   
+}
+header{
+    background-color: #015668;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 5%;
+}
+.logo{
+    margin-right: auto;
+    cursor: pointer;
+    font-family: "Odachi";
+    font-size: 30px;
+}
+.nav_link{
+    list-style: none;
+}
+.nav_link li{
+    display: inline-block;
+    padding: 0px 50px;
+}
+.nav_link li a:hover {
+    color: black;
+}
+.nav_link li a{
+    transition:  all 0.3s ease 0s;
+}
+.intro1{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.text1{
+    text-decoration: none;
+    font-family: "NoirPro-Bold";
+    padding: 50px;
+    color: white;
+}
+.text2{
+    font-family: "NoirStd-Regular";
+    color: white;
+}
+.button1{
+    width: auto;
+    padding: 10px 18px;
+    background-color:  #015668;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+button:hover{
+    background-color: black;
+}
+
+.intro2{
+    text-align: left;
+    font-size: 30px;
+    padding: 200px ;
+    margin: auto;
+    color: #ffd369;
+}
+.text3{
+    text-decoration: underline;
+    text-decoration-color: black;
+    font-family: "NoirPro-Bold";
+}
+
+.border.underline{
+    display: inline;
+    border-bottom: black;
+}
+.text4{
+    text-shadow: 2px 2px black;
+}
+.box{
+    width: 300px;
+    text-align: center;
+    background: rgba(2, 54, 133, 0.411);
+    padding: 20px;
+    margin: 8% auto 0;
+    font-size: 16px;
+    color: #ffd369;
+}
+input[type=text]{
+    width: 80%;
+    padding: 5px 5%;
+    display: inline-block;
+    border: 1px solid #cccccc;
+}
+.intro3{
+    text-align: center;
+    font-family: "NoirPro-Bold";
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    background-position: center;
+}
+.text5{
+    text-shadow: 1px 1px black;
+}
+.text6{
+    text-shadow:2px 2px black;
+}
+.box1{
+    width: 300px;
+    text-align: justify;
+    background: rgba(52, 15, 185, 0.1);
+    box-shadow: 5px 10px;
+    padding: 20px;
+    margin: 1% auto 0;
+    font-size: 16px;
+    color: black;
+    left: 5%;
+    position: absolute;
+}
+.open1{
+    text-align: center;
+    font-weight:bold;
+
+
+}
+.box2{
+    width: 300px;
+    text-align: justify;
+    background: rgba(52, 15, 185, 0.1);
+    box-shadow: 5px 10px;
+    padding: 20px;
+    margin: 1% auto 0;
+    font-size: 16px;
+    color: black;
+    left: 40%;
+    position: absolute;
+}
+.box3{
+    width: 300px;
+    text-align: justify;
+    background: rgba(52, 15, 185, 0.1);
+    box-shadow: 5px 10px;
+    padding: 20px;
+    margin: 1% auto 0;
+    font-size: 16px;
+    color: black;
+    right: 5%;
+    position: absolute;
+}
+.contact1{
+    font-size: 18px;
+    text-shadow: 1px 1px black;
+}
+
+footer{
+    background-color: #015668;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0px;
+}
+
+img{
+    width: 40px;
+    background-position:inherit;
+    background-size:cover;
+    height:40px;
+    background :#015668;
+    
+}
+.icon{
+    line-height:0px;
+    background :#015668;
+    background-size: cover;
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.icon{
+    line-height:0px;
+    background:#015668;
+    background-size:cover;
+    text-align:center;
+    padding-top: 10px;
+   padding-bottom: 10px;
+}
+.icon{
+    line-height:0px;
+    background:#015668;
+    background-size:cover;
+    text-align:center;
+    padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.footer.lo{
+    position: fixed;
+    align-items:center;
+    justify-content: space-evenly;
+    right: 100%;
+}
